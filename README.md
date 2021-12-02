@@ -40,7 +40,7 @@
 
 所以最後只能將原本三個影片再拿來播放XD，還有精美音效喔!! >_Ob
 
-![](https://www.youtube.com/watch?v=J2KVbKkFPXk)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/J2KVbKkFPXk/0.jpg)](https://www.youtube.com/watch?v=J2KVbKkFPXk)
 
 ## 心得
 這次我沒選擇做 unity 以及另一個，但這個動態照片，其實也不簡單，一開始很常找不到好的點，因此會高機率沒貼好，我後來在找尋好的轉換點時，因為我們要找的特徵圖，應該會在背景圖裡的某個區域，因此我嘗試用統計學的概念，過濾掉離群值，讓計算量變少，並去除四個轉換點靠太近的情況，貼成功的機率也就大大的上升了。
