@@ -5,7 +5,9 @@
 
 ## 以下演算法大多皆為手刻
 main_final.py 裡可以選擇要偵測特徵照片，以及要貼上的影片  !!! 影片要先自行轉成 npy 檔 !!!
+
 prospective.py 裡主要以手刻 perspective transformation，還有抓取特徵照片角落、影片角落演算法為主
+
 featurepoint.py 裡主要以找尋兩張圖的特徵點，比對並過濾出好的特徵點，再去進行應用跟查看。並且有最後的貼上影片的 function 在這裏面
 
 ## 簡介
