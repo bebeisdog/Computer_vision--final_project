@@ -1,9 +1,9 @@
 # AR應用 - 多少航航出現在鏡頭上
-
+## 2021/06/20 完稿  
 ### D0645185 翁健愷
 ###### tags: `computer vision`
 
-## 以下演算法大多階為手刻
+## 以下演算法大多皆為手刻
 
 ## 簡介
 專題用 opencv 搭配鏡頭去找尋目標圖片，並將目標圖片替換成影片，使用者可以觀測圖片以及影片，找出有多少航航。<font color = 'red'>**答案自在人間(X**</font>
@@ -22,16 +22,24 @@
 用鏡頭的話，就得根據鏡頭抓取進來的照片，馬上去做運算，在特徵圖片移動時也要能追蹤特徵圖片，將影片貼上，要讓影片能順利的運行，還需要進行一些優化以及思緒上的建構。
 
 * 我們讓特徵照片移動，影片也需要跟著移動
-{%youtube ExOWR5VREk8 %}
+點下方圖片會跑到影片地方
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ExOWR5VREk/0.jpg)](https://www.youtube.com/watch?v=ExOWR5VREk)
 
-## 針對單一招片搜尋並替換成照片
+或是這裡有網址[針對單一照片搜尋並替換成照片](https://www.youtube.com/watch?v=ExOWR5VREk8)
+
+## 針對單一照片搜尋並替換成照片
 這邊還沒有進行演算法的優化，因次當時很容易浮動，而且當時是用手持攝影機，因此抖動可能會影響判斷過程。
+點下方圖片會跑到影片地方
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/4yoJXJ-W3Xk/0.jpg)](https://www.youtube.com/watch?v=4yoJXJ-W3Xk)
 
-{%youtube 4yoJXJ-W3Xk %}
+或是這裡有網址[針對單一照片搜尋並替換成照片](https://www.youtube.com/watch?v=4yoJXJ-W3Xk)
 
 ## 針對單一照片搜尋並替換成影片
 這時已經有優化，降低了貼歪的機率，雖然有時還是會爆掉QQ，還要再想辦法處理
-{%youtube EoXiZ289wo4 %}
+點下方圖片會跑到影片地方
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EoXiZ289wo4/0.jpg)](https://www.youtube.com/watch?v=EoXiZ289wo4)
+
+或是這裡有網址[針對單一照片搜尋並替換成影片](https://www.youtube.com/watch?v=EoXiZ289wo4)
 
 ## 最終影片
 找到三張特定照片，都去進行更換成影片，本來最後想弄[另外一個影片的](https://www.youtube.com/watch?v=Tf-E5oKYvvE)<font color = 'red'>**這樣根本數不出有幾個統神XD**</font>，但出現了這個，Memory error，好像存太多 np 的檔案，已經超出範圍所以不給存了。好慘QQ
@@ -39,8 +47,10 @@
 ![](https://i.imgur.com/lIuEYcu.png)
 
 所以最後只能將原本三個影片再拿來播放XD，還有精美音效喔!! >_Ob
-
+點下方圖片會跑到影片地方
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/J2KVbKkFPXk/0.jpg)](https://www.youtube.com/watch?v=J2KVbKkFPXk)
+
+或是這裡有網址[最終影片](https://www.youtube.com/watch?v=J2KVbKkFPXk)
 
 ## 心得
 這次我沒選擇做 unity 以及另一個，但這個動態照片，其實也不簡單，一開始很常找不到好的點，因此會高機率沒貼好，我後來在找尋好的轉換點時，因為我們要找的特徵圖，應該會在背景圖裡的某個區域，因此我嘗試用統計學的概念，過濾掉離群值，讓計算量變少，並去除四個轉換點靠太近的情況，貼成功的機率也就大大的上升了。
