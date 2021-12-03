@@ -27,7 +27,9 @@ featurepoint.py 裡主要以找尋兩張圖的特徵點，比對並過濾出好�
 用鏡頭的話，就得根據鏡頭抓取進來的照片，馬上去做運算，在特徵圖片移動時也要能追蹤特徵圖片，將影片貼上，要讓影片能順利的運行，還需要進行一些優化以及思緒上的建構。
 
 * 我們讓特徵照片移動，影片也需要跟著移動
+* 
 點下方圖片會跑到影片地方
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ExOWR5VREk/0.jpg)](https://www.youtube.com/watch?v=ExOWR5VREk)
 
 或是這裡有網址[針對單一照片搜尋並替換成照片](https://www.youtube.com/watch?v=ExOWR5VREk8)
